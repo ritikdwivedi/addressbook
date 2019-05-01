@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.edurekademo.utilities.TestGenericComparator" time="0.05" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.edurekademo.utilities.TestGenericComparator" time="0.026" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/amd64"/>
@@ -31,10 +31,10 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="3.10.0-957.1.3.el7.x86_64"/>
+    <property name="os.version" value="3.10.0-957.12.1.el7.x86_64"/>
     <property name="library.jansi.path" value="/opt/apache-maven-3.6.0/lib/jansi-native"/>
     <property name="user.home" value="/root"/>
-    <property name="user.timezone" value="UTC"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -60,18 +60,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testSortEmpNameAsc" classname="com.edurekademo.utilities.TestGenericComparator" time="0.006"/>
-  <testcase name="testSortEmpNameDesc" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
-  <testcase name="testSortEmpIDAsc" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
-  <testcase name="testSortEmpIDDesc" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
-  <testcase name="testSortEmpSpareAsc" classname="com.edurekademo.utilities.TestGenericComparator" time="0.038"/>
+  <testcase name="testSortEmpSpareAsc" classname="com.edurekademo.utilities.TestGenericComparator" time="0.018"/>
   <testcase name="testSortEmpSpareDesc" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
   <testcase name="testSortEmpSpareDesc2" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
   <testcase name="testSortEmpSpareAsc2" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
   <testcase name="testSortEmpSpare2StringAsc" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
-  <testcase name="testSortEmpSpare2StringDesc" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
-  <testcase name="testSortEmpNameAscNewComparator" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
-  <testcase name="testSortEmpNameAscNewComparator3Element" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
+  <testcase name="testSortEmpNameAsc" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
+  <testcase name="testSortEmpSpare2StringDesc" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
+  <testcase name="testSortEmpNameAscNewComparator" classname="com.edurekademo.utilities.TestGenericComparator" time="0.004"/>
+  <testcase name="testSortEmpNameAscNewComparator3Element" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
   <testcase name="testSortEmpNameDescNewComparator3Element" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
-  <testcase name="testDoubleSort" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
+  <testcase name="testSortEmpIDAsc" classname="com.edurekademo.utilities.TestGenericComparator" time="0.001"/>
+  <testcase name="testSortEmpIDDesc" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
+  <testcase name="testSortEmpNameDesc" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
+  <testcase name="testDoubleSort" classname="com.edurekademo.utilities.TestGenericComparator" time="0"/>
 </testsuite>
